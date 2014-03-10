@@ -181,35 +181,35 @@ class RussianTeaCake < Cookie
 end
 
 
-betty_the_baker = Baker.new
+# betty_the_baker = Baker.new
 
 
-p betty_the_baker.turn_on_oven
-betty_the_baker.make_cookie_batch(:Snickerdoodle)
-betty_the_baker.put_cookies_on_sheet
-betty_the_baker.put_cookies_in_oven
-betty_the_baker.oven.bake(4)
-p betty_the_baker.check_cookies
-betty_the_baker.oven.bake(6)
-p betty_the_baker.check_cookies
-p betty_the_baker.remove_cookies
-betty_the_baker.make_cookie_batch(:RussianTeaCake)
-betty_the_baker.put_cookies_on_sheet
-betty_the_baker.put_cookies_in_oven
-betty_the_baker.oven.bake(3)
-p betty_the_baker.check_cookies
-betty_the_baker.oven.bake(1)
-p betty_the_baker.check_cookies
-p betty_the_baker.remove_cookies
-betty_the_baker.make_cookie_batch(:MandMCookie)
-betty_the_baker.put_cookies_on_sheet
-betty_the_baker.put_cookies_in_oven
-betty_the_baker.oven.bake(13)
-p betty_the_baker.check_cookies
-betty_the_baker.oven.bake(29)
-p betty_the_baker.check_cookies
-p betty_the_baker.remove_cookies
-betty_the_baker.check_cookie_jar
+# p betty_the_baker.turn_on_oven
+# betty_the_baker.make_cookie_batch(:Snickerdoodle)
+# betty_the_baker.put_cookies_on_sheet
+# betty_the_baker.put_cookies_in_oven
+# betty_the_baker.oven.bake(4)
+# p betty_the_baker.check_cookies
+# betty_the_baker.oven.bake(6)
+# p betty_the_baker.check_cookies
+# p betty_the_baker.remove_cookies
+# betty_the_baker.make_cookie_batch(:RussianTeaCake)
+# betty_the_baker.put_cookies_on_sheet
+# betty_the_baker.put_cookies_in_oven
+# betty_the_baker.oven.bake(3)
+# p betty_the_baker.check_cookies
+# betty_the_baker.oven.bake(1)
+# p betty_the_baker.check_cookies
+# p betty_the_baker.remove_cookies
+# betty_the_baker.make_cookie_batch(:MandMCookie)
+# betty_the_baker.put_cookies_on_sheet
+# betty_the_baker.put_cookies_in_oven
+# betty_the_baker.oven.bake(13)
+# p betty_the_baker.check_cookies
+# betty_the_baker.oven.bake(29)
+# p betty_the_baker.check_cookies
+# p betty_the_baker.remove_cookies
+# betty_the_baker.check_cookie_jar
 
 
 
